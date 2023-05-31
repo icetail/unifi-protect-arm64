@@ -71,4 +71,6 @@ COPY files/etc /etc/
 
 VOLUME ["/srv", "/data", "/persistent"]
 
+EXPOSE 1935/tcp 7444/tcp 7447/tcp 6666/tcp 7442/tcp 7004/udp 7080/tcp 7443/tcp 7445/tcp 7446/tcp
+
 CMD ["/lib/systemd/systemd"]
